@@ -16,6 +16,7 @@
         "vite": "^7.0.7"
     },
     "dependencies": {
+        "dompurify": "^3.4.16",
         "marked": "^18.0.14",
         "vue": "^3.5.43",
         "vue-router": "^5.3.1"
