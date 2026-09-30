@@ -1933,9 +1933,9 @@ APP_NAME=MindShelf
 APP_ENV=local
 APP_KEY=
 APP_DEBUG=true
-APP_URL=http://localhost
+APP_URL=http://localhost:8000
 
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL=http://localhost:8000
 
 DB_CONNECTION=sqlite
 
@@ -1948,7 +1948,7 @@ SESSION_SAME_SITE=lax
 CACHE_STORE=file
 QUEUE_CONNECTION=sync
 
-SANCTUM_STATEFUL_DOMAINS=localhost,localhost:5173
+SANCTUM_STATEFUL_DOMAINS=localhost:8000
 
 REGISTRATION_ENABLED=true
 
